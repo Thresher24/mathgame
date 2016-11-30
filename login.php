@@ -1,6 +1,8 @@
 <?php
 session_start();
 $msg = $_GET["msg"];
+
+include("include/header.php");
 ?>
 
 <h2>Please login to enjoy our Math Game.</h2>

@@ -179,3 +179,4 @@ $_SESSION["operator"] = $operator;
         </label>
     </div>
 </div>
+<?php include("include/footer.php"); ?>
