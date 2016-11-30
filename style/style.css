@@ -1,0 +1,28 @@
+.form-group-req div{
+    position:relative;
+    margin-right:0px;
+}
+
+.form-group-req div:after{
+    position:absolute;
+    content:'*';
+    font-size: 24px;
+    color:blue;
+    right:-15px;
+    top:0;
+}
+
+hr {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px 0;
+}
+
+#correct {
+    color: green;
+}
+
+#incorrect {
+    color: red;
+}
